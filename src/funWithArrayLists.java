@@ -5,11 +5,13 @@ import java.util.Random;
 
 public class funWithArrayLists {
     public static void main(String[] args) {
+
         //Simple Integer Array
-        int[] simpleIntArray = new Random().ints(5,0,100).toArray();
+        int[] simpleIntArray = new Random().ints(20,0,100).toArray();
         System.out.println("Unsorted Simple Integer Array: " + Arrays.toString(simpleIntArray));
         Arrays.sort(simpleIntArray);
         System.out.println("Sorted Simple Integer  Array: " + Arrays.toString(simpleIntArray) + "\n");
+
         //Integer Array List
         ArrayList<Integer> intArrayList = new ArrayList<>();
         Random ran = new Random();
@@ -20,7 +22,7 @@ public class funWithArrayLists {
             counter ++;
         }
         System.out.println("Unsorted Integer ArrayList: " + intArrayList);
-        Collections.sort(intArrayList);  // Sort integers
+        Collections.sort(intArrayList);
         System.out.println("Sorted Integer ArrayList: " + intArrayList);
         intArrayList.add(ran.nextInt(100));
         intArrayList.add(ran.nextInt(100));
@@ -28,11 +30,15 @@ public class funWithArrayLists {
         System.out.println("Integer ArrayList Appended: " + intArrayList);
         Collections.sort(intArrayList);
         System.out.println("Re-sorted Integer ArrayList: " + intArrayList + "\n");
+
+
+
         //Simple String Array
         String[] simpleCountryArray = {"China","Morocco", "Norway", "Japan", "Germany"};
         System.out.println("Unsorted Simple Country List: " + Arrays.toString(simpleCountryArray));
         Arrays.sort(simpleCountryArray);
         System.out.println("Sorted Simple Country List: " + Arrays.toString(simpleCountryArray) + "\n");
+
         //String Array List
         ArrayList<String> countriesArrayList = new ArrayList<>(Arrays.asList("China","Morocco",
                 "Norway", "Japan", "Spain", "France", "Finland",
