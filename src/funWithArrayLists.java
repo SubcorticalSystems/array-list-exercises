@@ -11,7 +11,7 @@ public class funWithArrayLists {
         Arrays.sort(simpleIntArray);
         System.out.println("Sorted Simple Integer  Array: " + Arrays.toString(simpleIntArray) + "\n");
         //Integer Array List
-        ArrayList<Integer> intArrayList = new ArrayList<Integer>();
+        ArrayList<Integer> intArrayList = new ArrayList<>();
         Random ran = new Random();
         int counter = 0;
         while(counter <= 20){
@@ -34,7 +34,7 @@ public class funWithArrayLists {
         Arrays.sort(simpleCountryArray);
         System.out.println("Sorted Simple Country List: " + Arrays.toString(simpleCountryArray) + "\n");
         //String Array List
-        ArrayList<String> countriesArrayList = new ArrayList<String>(Arrays.asList("China","Morocco",
+        ArrayList<String> countriesArrayList = new ArrayList<>(Arrays.asList("China","Morocco",
                 "Norway", "Japan", "Spain", "France", "Finland",
                 "United States", "South Korea", "Brazil", "Poland", "Germany"));
         System.out.println("Unsorted Country ArrayList: " + countriesArrayList);
