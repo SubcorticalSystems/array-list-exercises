@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class countries {
+public class Countries {
     public static void main(String[] args) {
         //initialized array for countries
         String[] countryArray = {"China","Morocco",

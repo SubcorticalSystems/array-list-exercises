@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
 
-public class funWithArrayLists {
+public class FunWithArrayLists {
     public static void main(String[] args) {
 
         //Simple Integer Array
